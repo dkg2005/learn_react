@@ -1,0 +1,77 @@
+.heading{
+    color: #051709d6;
+    /* border: solid burlywood 2px; */
+    font-family:Optima, sans-serif;
+    font-style: normal;
+    font-variant: small-caps;
+    font-stretch: expanded;
+    font-weight: 700;
+}
+.vehicleNo,.vehicleType,.vehicleOwner,.btn{
+    border: 1px solid rgb(12, 90, 93);
+    border-radius: 7px;
+    margin: 10px;
+    margin-left: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+.registerBtn{
+    border: 1px solid rgb(12, 90, 93);
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 30px;
+    padding: 10px;
+    cursor: pointer;
+    color: rgb(182, 192, 192);
+    background-color: rgb(122, 12, 12);
+    font-weight: bolder;
+}
+.registerBtn:disabled{
+    cursor: not-allowed;
+    opacity: 0.5;
+    background-color: gray;
+}
+.formVehicle{
+    text-align: center;
+}
+.passCard{
+    width: 300px;
+    margin: 20px auto; /* Centers the card */
+    padding: 20px;
+    border-radius: 12px;
+    background: linear-gradient(to bottom, #02475e, #038c8c);
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+}
+
+.passCard h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.passCard p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.passCard strong {
+    color: #ffcc00; /* Highlight labels */
+}
+.qrcodeBtn,.downloadBtn{
+    display: block;
+    margin: 20px auto; /* Centers horizontally */
+    padding: 10px 20px;
+    background-color: #0f065d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+a{ 
+    text-decoration: none;
+}

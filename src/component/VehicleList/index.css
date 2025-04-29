@@ -1,0 +1,31 @@
+.heading{
+    color: #051709d6;
+    font-size: xx-large;
+    /* border: solid burlywood 2px; */
+    font-family:Optima, sans-serif;
+    font-style: normal;
+    font-variant: small-caps;
+    font-stretch: expanded;
+    font-weight: 700;
+}
+.tableDetails{
+    text-align: center;
+    border: 5px solid #051709d6;
+    color: rgb(29, 29, 92);
+    border-collapse: collapse;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+th{
+    border: 1.5px solid rgb(103, 16, 16);
+    padding: 10px;
+    /* color: ; */
+}
+td{
+    border : 1.5px solid rgb(103, 16, 16);
+    padding: 10px;
+    color : rgb(14, 14, 54);
+}
+ 
